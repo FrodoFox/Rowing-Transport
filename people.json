@@ -1,0 +1,470 @@
+[
+  {
+    "name": "Alice Smith",
+    "gender": "Female",
+    "student_id": "S0001",
+    "year_of_entry": 2024,
+    "pickup_locations": [
+      "Library",
+      "Cafeteria"
+    ],
+    "car": {
+      "vehicle_type": "Sedan",
+      "registration": "CAR001",
+      "seats": 4
+    },
+    "can_drive_minibus": true
+  },
+  {
+    "name": "Bob John",
+    "gender": "Male",
+    "student_id": "S0002",
+    "year_of_entry": 2023,
+    "pickup_locations": [
+      "Gym",
+      "Library"
+    ],
+    "car": null,
+    "can_drive_minibus": false
+  },
+  {
+    "name": "Charlie Brown",
+    "gender": "Male",
+    "student_id": "S0003",
+    "year_of_entry": 2024,
+    "pickup_locations": [
+      "Library",
+      "Cafeteria"
+    ],
+    "car": null,
+    "can_drive_minibus": false
+  },
+  {
+    "name": "Diana Miller",
+    "gender": "Female",
+    "student_id": "S0004",
+    "year_of_entry": 2023,
+    "pickup_locations": [
+      "Gym",
+      "Library"
+    ],
+    "car": null,
+    "can_drive_minibus": false
+  },
+  {
+    "name": "Ethan Davis",
+    "gender": "Male",
+    "student_id": "S0005",
+    "year_of_entry": 2024,
+    "pickup_locations": [
+      "Library"
+    ],
+    "car": {
+      "vehicle_type": "Hatchback",
+      "registration": "CAR002",
+      "seats": 4
+    },
+    "can_drive_minibus": false
+  },
+  {
+    "name": "Fiona Wilson",
+    "gender": "Female",
+    "student_id": "S0006",
+    "year_of_entry": 2023,
+    "pickup_locations": [
+      "Cafeteria"
+    ],
+    "car": null,
+    "can_drive_minibus": false
+  },
+  {
+    "name": "George Moore",
+    "gender": "Male",
+    "student_id": "S0007",
+    "year_of_entry": 2024,
+    "pickup_locations": [
+      "Gym"
+    ],
+    "car": null,
+    "can_drive_minibus": true
+  },
+  {
+    "name": "Hannah Taylor",
+    "gender": "Female",
+    "student_id": "S0008",
+    "year_of_entry": 2023,
+    "pickup_locations": [
+      "Library",
+      "Gym"
+    ],
+    "car": {
+      "vehicle_type": "SUV",
+      "registration": "CAR003",
+      "seats": 5
+    },
+    "can_drive_minibus": false
+  },
+  {
+    "name": "Ian Anderson",
+    "gender": "Male",
+    "student_id": "S0009",
+    "year_of_entry": 2024,
+    "pickup_locations": [
+      "Cafeteria"
+    ],
+    "car": null,
+    "can_drive_minibus": false
+  },
+  {
+    "name": "Julia Thomas",
+    "gender": "Female",
+    "student_id": "S0010",
+    "year_of_entry": 2023,
+    "pickup_locations": [
+      "Library"
+    ],
+    "car": null,
+    "can_drive_minibus": false
+  },
+  {
+    "name": "Kevin Jackson",
+    "gender": "Male",
+    "student_id": "S0011",
+    "year_of_entry": 2024,
+    "pickup_locations": [
+      "Gym",
+      "Cafeteria"
+    ],
+    "car": null,
+    "can_drive_minibus": false
+  },
+  {
+    "name": "Laura White",
+    "gender": "Female",
+    "student_id": "S0012",
+    "year_of_entry": 2023,
+    "pickup_locations": [
+      "Library",
+      "Cafeteria"
+    ],
+    "car": {
+      "vehicle_type": "Sedan",
+      "registration": "CAR004",
+      "seats": 4
+    },
+    "can_drive_minibus": false
+  },
+  {
+    "name": "Mike Harris",
+    "gender": "Male",
+    "student_id": "S0013",
+    "year_of_entry": 2024,
+    "pickup_locations": [
+      "Gym"
+    ],
+    "car": null,
+    "can_drive_minibus": false
+  },
+  {
+    "name": "Nina Martin",
+    "gender": "Female",
+    "student_id": "S0014",
+    "year_of_entry": 2023,
+    "pickup_locations": [
+      "Library"
+    ],
+    "car": null,
+    "can_drive_minibus": false
+  },
+  {
+    "name": "Oliver Thompson",
+    "gender": "Male",
+    "student_id": "S0015",
+    "year_of_entry": 2024,
+    "pickup_locations": [
+      "Cafeteria"
+    ],
+    "car": {
+      "vehicle_type": "SUV",
+      "registration": "CAR005",
+      "seats": 5
+    },
+    "can_drive_minibus": false
+  },
+  {
+    "name": "Paula Garcia",
+    "gender": "Female",
+    "student_id": "S0016",
+    "year_of_entry": 2023,
+    "pickup_locations": [
+      "Library"
+    ],
+    "car": null,
+    "can_drive_minibus": true
+  },
+  {
+    "name": "Quentin Martinez",
+    "gender": "Male",
+    "student_id": "S0017",
+    "year_of_entry": 2024,
+    "pickup_locations": [
+      "Gym"
+    ],
+    "car": null,
+    "can_drive_minibus": false
+  },
+  {
+    "name": "Rachel Robinson",
+    "gender": "Female",
+    "student_id": "S0018",
+    "year_of_entry": 2023,
+    "pickup_locations": [
+      "Cafeteria"
+    ],
+    "car": null,
+    "can_drive_minibus": false
+  },
+  {
+    "name": "Steve Clark",
+    "gender": "Male",
+    "student_id": "S0019",
+    "year_of_entry": 2024,
+    "pickup_locations": [
+      "Library"
+    ],
+    "car": {
+      "vehicle_type": "Hatchback",
+      "registration": "CAR006",
+      "seats": 4
+    },
+    "can_drive_minibus": true
+  },
+  {
+    "name": "Umar Lewis",
+    "gender": "Male",
+    "student_id": "S0021",
+    "year_of_entry": 2024,
+    "pickup_locations": [
+      "Library"
+    ],
+    "car": null,
+    "can_drive_minibus": false
+  },
+  {
+    "name": "Vera Lee",
+    "gender": "Female",
+    "student_id": "S0022",
+    "year_of_entry": 2023,
+    "pickup_locations": [
+      "Cafeteria"
+    ],
+    "car": null,
+    "can_drive_minibus": false
+  },
+  {
+    "name": "Will Walker",
+    "gender": "Male",
+    "student_id": "S0023",
+    "year_of_entry": 2024,
+    "pickup_locations": [
+      "Gym"
+    ],
+    "car": null,
+    "can_drive_minibus": false
+  },
+  {
+    "name": "Xena Hall",
+    "gender": "Female",
+    "student_id": "S0024",
+    "year_of_entry": 2023,
+    "pickup_locations": [
+      "Library"
+    ],
+    "car": null,
+    "can_drive_minibus": false
+  },
+  {
+    "name": "Yusuf Allen",
+    "gender": "Male",
+    "student_id": "S0025",
+    "year_of_entry": 2024,
+    "pickup_locations": [
+      "Cafeteria"
+    ],
+    "car": null,
+    "can_drive_minibus": false
+  },
+  {
+    "name": "Zara Young",
+    "gender": "Female",
+    "student_id": "S0026",
+    "year_of_entry": 2023,
+    "pickup_locations": [
+      "Gym"
+    ],
+    "car": null,
+    "can_drive_minibus": false
+  },
+  {
+    "name": "Aaron King",
+    "gender": "Male",
+    "student_id": "S0027",
+    "year_of_entry": 2024,
+    "pickup_locations": [
+      "Library"
+    ],
+    "car": null,
+    "can_drive_minibus": false
+  },
+  {
+    "name": "Bella Wright",
+    "gender": "Female",
+    "student_id": "S0028",
+    "year_of_entry": 2023,
+    "pickup_locations": [
+      "Cafeteria"
+    ],
+    "car": null,
+    "can_drive_minibus": false
+  },
+  {
+    "name": "Cody Scott",
+    "gender": "Male",
+    "student_id": "S0029",
+    "year_of_entry": 2024,
+    "pickup_locations": [
+      "Gym"
+    ],
+    "car": null,
+    "can_drive_minibus": false
+  },
+  {
+    "name": "Daphne Green",
+    "gender": "Female",
+    "student_id": "S0030",
+    "year_of_entry": 2023,
+    "pickup_locations": [
+      "Library"
+    ],
+    "car": {
+      "vehicle_type": "Sedan",
+      "registration": "CAR007",
+      "seats": 4
+    },
+    "can_drive_minibus": false
+  },
+  {
+    "name": "Eli Adams",
+    "gender": "Male",
+    "student_id": "S0031",
+    "year_of_entry": 2024,
+    "pickup_locations": [
+      "Cafeteria"
+    ],
+    "car": null,
+    "can_drive_minibus": false
+  },
+  {
+    "name": "Faith Baker",
+    "gender": "Female",
+    "student_id": "S0032",
+    "year_of_entry": 2023,
+    "pickup_locations": [
+      "Gym"
+    ],
+    "car": null,
+    "can_drive_minibus": false
+  },
+  {
+    "name": "Gabe Nelson",
+    "gender": "Male",
+    "student_id": "S0033",
+    "year_of_entry": 2024,
+    "pickup_locations": [
+      "Library"
+    ],
+    "car": null,
+    "can_drive_minibus": false
+  },
+  {
+    "name": "Holly Carter",
+    "gender": "Female",
+    "student_id": "S0034",
+    "year_of_entry": 2023,
+    "pickup_locations": [
+      "Cafeteria"
+    ],
+    "car": null,
+    "can_drive_minibus": false
+  },
+  {
+    "name": "Isaac Mitchell",
+    "gender": "Male",
+    "student_id": "S0035",
+    "year_of_entry": 2024,
+    "pickup_locations": [
+      "Gym"
+    ],
+    "car": null,
+    "can_drive_minibus": false
+  },
+  {
+    "name": "Jade Perez",
+    "gender": "Female",
+    "student_id": "S0036",
+    "year_of_entry": 2023,
+    "pickup_locations": [
+      "Library"
+    ],
+    "car": null,
+    "can_drive_minibus": false
+  },
+  {
+    "name": "Kyle Roberts",
+    "gender": "Male",
+    "student_id": "S0037",
+    "year_of_entry": 2024,
+    "pickup_locations": [
+      "Cafeteria"
+    ],
+    "car": {
+      "vehicle_type": "Hatchback",
+      "registration": "CAR008",
+      "seats": 4
+    },
+    "can_drive_minibus": false
+  },
+  {
+    "name": "Lara Turner",
+    "gender": "Female",
+    "student_id": "S0038",
+    "year_of_entry": 2023,
+    "pickup_locations": [
+      "Gym"
+    ],
+    "car": null,
+    "can_drive_minibus": false
+  },
+  {
+    "name": "Matt Phillips",
+    "gender": "Male",
+    "student_id": "S0039",
+    "year_of_entry": 2024,
+    "pickup_locations": [
+      "Library"
+    ],
+    "car": null,
+    "can_drive_minibus": false
+  },
+  {
+    "name": "Nora Campbell",
+    "gender": "Female",
+    "student_id": "S0040",
+    "year_of_entry": 2023,
+    "pickup_locations": [
+      "Cafeteria"
+    ],
+    "car": null,
+    "can_drive_minibus": false
+  }
+]

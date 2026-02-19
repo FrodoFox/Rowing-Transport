@@ -1,0 +1,14 @@
+[
+  {
+    "registration": "MB100",
+    "seats": 12
+  },
+  {
+    "registration": "MB200",
+    "seats": 10
+  },
+  {
+    "registration": "MB300",
+    "seats": 15
+  }
+]
