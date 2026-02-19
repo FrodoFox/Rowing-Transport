@@ -335,7 +335,11 @@
     "pickup_locations": [
       "Gym"
     ],
-    "car": null,
+    "car": {
+      "vehicle_type": "Porsche 911",
+      "registration": "EH93EN",
+      "seats": 5
+    },
     "can_drive_minibus": false
   },
   {
@@ -476,8 +480,12 @@
       "marchmont",
       "west-powburn"
     ],
-    "car": null,
-    "can_drive_minibus": true
+    "car": {
+      "vehicle_type": "Toyota MR2",
+      "registration": "AB125AB",
+      "seats": 2
+    },
+    "can_drive_minibus": false
   },
   {
     "name": "Freddy Foxwell",
