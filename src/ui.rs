@@ -582,16 +582,21 @@ impl eframe::App for RowingApp {
 
                     // Determining the name of each seat to be displayed on the boat
                     let name  = seat.as_ref().and_then(|id| self.state.get_person(id)).map(|p| p.name.as_str()).unwrap_or("—"); // Getting the name of the assigned person for that seat (or "-" if the seat is empty)
+                    let has_cox: bool = (boat.boat_type == BoatType::FourCoxed || boat.boat_type == BoatType::EightCoxed);
 
                     let mut label; // Initializing the label (name to be given to the seat)
                     if is_cox {
                         label = format!("COX: {}", name);           // Label for coxswain seat
-                    } else if name == "1" {
-                        label = format!("Bow: {}", name);           // Label for bow seat
-                    } else if name == num_seats.to_string() {
-                        label = format!("Stroke: {}", name);        // Label for stroke seat
+                    } else if s_idx == 0 {
+                        label = format!("BOW: {}", name);           // Label for bow seat
+                    } else if (has_cox && s_idx == num_seats - 2) {
+                        label = format!("STR: {}", name);           // Label for stroke seat - condition that boat is coxed
                     } else {
+                        if(s_idx == num_seats - 1) {
+                            label = format!("STR: {}", name);       // Label for stroke seat - condition that boat is coxless
+                        } else {
                         label = format!("{}: {}", s_idx + 1, name); // Label for regular seats (e.g. "2: Alice")
+                        }
                     }
 
                     // Drawing the label for each seat (Showing each seat number)
