@@ -583,7 +583,7 @@ impl eframe::App for RowingApp {
                     // Determining the name of each seat to be displayed on the boat
                     let name  = seat.as_ref().and_then(|id| self.state.get_person(id)).map(|p| p.name.as_str()).unwrap_or("—"); // Getting the name of the assigned person for that seat (or "-" if the seat is empty)
 
-                    let mut label = "".to_string(); // Initializing the label (name to be given to the seat)
+                    let mut label; // Initializing the label (name to be given to the seat)
                     if is_cox {
                         label = format!("COX: {}", name);           // Label for coxswain seat
                     } else if name == "1" {
