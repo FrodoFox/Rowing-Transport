@@ -1,4 +1,5 @@
 use eframe::egui;
+use chrono::Local;
 use crate::models::{Person, Car, Allocation, Minibus, Destination, Gender};
 use crate::state::SystemState;
 
@@ -674,12 +675,15 @@ impl RowingApp {
             }
         }
 
+        // Getting the current date for transport sheet creation and documentation
+        let curr_date = Local::now().format("%Y-%m-%d").to_string();
+
         // Handing off results of UI to other allocation algorithm and PDF generation,
         match Allocation::assign_transport_global(groups, &self.state.minibuses, &self.wants_to_drive) {
 
             // If all allocations could be done successfully
             Ok(all_allocations) => {
-                if let Err(e) = crate::pdf::generate_pdf(&all_allocations, "transport_manifest.pdf") {
+                if let Err(e) = crate::pdf::generate_pdf(&all_allocations, format!("transport_sheet_{}.pdf", curr_date)) {
                     self.error_message = Some(format!("PDF Generation failed: {}", e));     // Displaying an error message if PDF generation fails
                 } else {
                     self.error_message = Some("PDF generated successfully.".to_string());   // Displaying a success message (using error message logic...)

@@ -466,5 +466,33 @@
     ],
     "car": null,
     "can_drive_minibus": false
+  },
+  {
+    "name": "Penny Irvine",
+    "gender": "Female",
+    "student_id": "s2669020",
+    "year_of_entry": 2024,
+    "pickup_locations": [
+      "marchmont",
+      "west-powburn"
+    ],
+    "car": null,
+    "can_drive_minibus": true
+  },
+  {
+    "name": "Freddy Foxwell",
+    "gender": "Male",
+    "student_id": "s2324971",
+    "year_of_entry": 2023,
+    "pickup_locations": [
+      "west-powburn",
+      "marchmont"
+    ],
+    "car": {
+      "vehicle_type": "Honda Jazz",
+      "registration": "SK66 XBX",
+      "seats": 4
+    },
+    "can_drive_minibus": false
   }
 ]
