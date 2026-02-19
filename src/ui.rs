@@ -683,7 +683,7 @@ impl RowingApp {
 
             // If all allocations could be done successfully
             Ok(all_allocations) => {
-                if let Err(e) = crate::pdf::generate_pdf(&all_allocations, format!("transport_sheet_{}.pdf", curr_date)) {
+                if let Err(e) = crate::pdf::generate_pdf(&all_allocations, &format!("transport_sheet_{}.pdf", curr_date)) {
                     self.error_message = Some(format!("PDF Generation failed: {}", e));     // Displaying an error message if PDF generation fails
                 } else {
                     self.error_message = Some("PDF generated successfully.".to_string());   // Displaying a success message (using error message logic...)
